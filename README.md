@@ -1,6 +1,6 @@
 # Welcome
 
-The aim of this howto is to create a environment to test [NFV](http://www.etsi.org/technologies-clusters/technologies/nfv) Escalability.
+The aim of this howto is to create a environment to test [NFV](http://www.etsi.org/technologies-clusters/technologies/nfv) Scalability.
 
 All procedures covered here, corresponds to the topology below:
 
