@@ -59,10 +59,8 @@ grub2-mkconfig -o /boot/grub2/grub.cfg
 
 Obs.: we used these references in this procedure:
 
-+1 [Compiling Xen](http://wiki.xen.org/wiki/Compiling_Xen)
-
-[Information for build xen-4.3.2-6.fc20](http://koji.fedoraproject.org/koji/buildinfo?buildID=539318)
-
-[Boot the Xen hypervisor by default in Fedora 17 with GRUB2](http://major.io/2012/07/16/boot-the-xen-hypervisor-by-default-in-fedora-17-with-grub-2/)
+  - [Compiling Xen](http://wiki.xen.org/wiki/Compiling_Xen)
+  - [Information for build xen-4.3.2-6.fc20](http://koji.fedoraproject.org/koji/buildinfo?buildID=539318)
+  - [Boot the Xen hypervisor by default in Fedora 17 with GRUB2](http://major.io/2012/07/16/boot-the-xen-hypervisor-by-default-in-fedora-17-with-grub-2/)
 
 When you finished to create your Fedora20 VM, click [here](/2_install_ClickOS.md) to install [ClickOS](http://cnp.neclab.eu/getting-started#clickos) and others softwares needed.
