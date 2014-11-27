@@ -28,7 +28,11 @@ chkconfig network on
 
 yum groupinstall "Development Libraries" "Development Tools"
 
-yum install transfig wget texi2html libaio-devel dev86 glibc-devel e2fsprogs-devel gitk iasl xz-devel bzip2-devel pciutils-libs pciutils-devel SDL-devel libX11-devel gtk2-devel bridge-utils pyxmlsec.x86_64 qemu-common qemu-img mercurial glibc-devel.i686 rpm-build libidn-devel texinfo graphviz gnutls-devel seabios-bin ipxe-roms-qemu yajl-devel checkpolicy ocaml ocaml-findlib mingw64-binutils libuuid-devel python-lxml.x86_64 ethtool
+yum install transfig wget texi2html libaio-devel dev86 glibc-devel e2fsprogs-devel gitk iasl xz-devel \
+bzip2-devel pciutils-libs pciutils-devel SDL-devel libX11-devel gtk2-devel bridge-utils pyxmlsec.x86_64 \
+qemu-common qemu-img mercurial glibc-devel.i686 rpm-build libidn-devel texinfo graphviz gnutls-devel \
+seabios-bin ipxe-roms-qemu yajl-devel checkpolicy ocaml ocaml-findlib mingw64-binutils libuuid-devel \
+python-lxml.x86_64 ethtool
 ```
 
 When you finished to create your Fedora20 VM, click [here](/2_install_ClickOS.md) to install [ClickOS](http://cnp.neclab.eu/getting-started#clickos) and others softwares needed.
