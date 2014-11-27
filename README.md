@@ -4,7 +4,7 @@ The aim of this howto is to create a environment to test [NFV](http://www.etsi.o
 
 All procedures covered here, corresponds to the topology below:
 
-/topology.png
+![Topology](/topology.png)
 
 
 
