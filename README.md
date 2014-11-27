@@ -8,9 +8,9 @@ All procedures covered here, corresponds to the topology below:
 
 Please, if you are interested in to do it, follow all instructions bellow:
 
-## 1 - [Create VM]()
+## 1 - [Create VM](/1_create_VM.md)
 
-## 2 - [Install ClickOS]()
+## 2 - [Install ClickOS](/2_install_ClickOS.md)
 
 You can download a pre-configured VM already installed [here]().
 
