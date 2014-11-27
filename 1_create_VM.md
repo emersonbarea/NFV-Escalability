@@ -35,4 +35,36 @@ seabios-bin ipxe-roms-qemu yajl-devel checkpolicy ocaml ocaml-findlib mingw64-bi
 python-lxml.x86_64 ethtool
 ```
 
+## 1.3 – Xen Intallation
+
+Obs.: we used these references in this procedure:
+[Compiling Xen](http://wiki.xen.org/wiki/Compiling_Xen)
+[Information for build xen-4.3.2-6.fc20](http://koji.fedoraproject.org/koji/buildinfo?buildID=539318)
+[Boot the Xen hypervisor by default in Fedora 17 with GRUB2](http://major.io/2012/07/16/boot-the-xen-hypervisor-by-default-in-fedora-17-with-grub-2/)
+
+
+Install Xen:
+
+```
+wget https://kojipkgs.fedoraproject.org//packages/xen/4.3.3/5.fc20/src/xen-4.3.3-5.fc20.src.rpm
+rpm -i xen-4.3.3-5.fc20.src.rpm
+cd rpmbuild/SPECS/
+rpmbuild -bb xen.spec
+cd ../RPMS/x86_64/
+rpm -Uvh *4.3.3-5*.rpm
+```
+
+Change boot menu and test Xe installation:
+
+```
+grep ^menuentry /boot/grub2/grub.cfg | cut -d "'" -f2
+grub2-set-default 'Fedora, with Xen hypervisor'
+grub2-editenv list
+grub2-mkconfig -o /boot/grub2/grub.cfg
+```
+
+
+
+
+
 When you finished to create your Fedora20 VM, click [here](/2_install_ClickOS.md) to install [ClickOS](http://cnp.neclab.eu/getting-started#clickos) and others softwares needed.
