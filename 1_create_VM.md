@@ -35,11 +35,14 @@ seabios-bin ipxe-roms-qemu yajl-devel checkpolicy ocaml ocaml-findlib mingw64-bi
 python-lxml.x86_64 ethtool
 ```
 
-## 1.3 – Xen Intallation
+### 1.2.2 – Xen Intallation
 
 Obs.: we used these references in this procedure:
+
 [Compiling Xen](http://wiki.xen.org/wiki/Compiling_Xen)
+
 [Information for build xen-4.3.2-6.fc20](http://koji.fedoraproject.org/koji/buildinfo?buildID=539318)
+
 [Boot the Xen hypervisor by default in Fedora 17 with GRUB2](http://major.io/2012/07/16/boot-the-xen-hypervisor-by-default-in-fedora-17-with-grub-2/)
 
 
