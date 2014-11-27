@@ -17,5 +17,4 @@ We used [Oracle VM VirtualBox](https://www.virtualbox.org/) to host the VM. We s
 
 
 
-When you finished to create your Fedora20 VM, you can install all softwares needed. Start [here](https://github.com/emersonbarea/testes/blob/master/2_install_NS-3_DCE.md).
-
+When you finished to create your Fedora20 VM, click [here](/2_install_ClickOS.md) to install [ClickOS](http://cnp.neclab.eu/getting-started#clickos) and others softwares needed.
